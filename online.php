@@ -15,7 +15,7 @@ var len=cSelect.options.length;
  } 
 var categoryLists = new Array(2) 
 categoryLists["empty"] = ["Select a Category"]; 
-categoryLists["UG"] = ["Aero Engineering", "Mechanical Engineering"]; 
+categoryLists["UG"] = ["Aero Engineering", "Mech Engineering"]; 
 categoryLists["PG"] = ["Mainframe Systems", "Information Technology"]; 
 var which = selectObj.options[idx].value; 
 cList = categoryLists[which]; 
